@@ -2,13 +2,6 @@
 *.log
 *.tmp
 
-# Ignore systemd service files (if they are created dynamically)
-*.service
-
-# Ignore binaries
-*.exe
-*.out
-
 # Ignore editor specific files
 *.swp
 *~
