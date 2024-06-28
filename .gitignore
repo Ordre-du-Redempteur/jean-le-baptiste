@@ -1,41 +1,14 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, build files, and debug output
-*.out
+# Ignore log files and temporary files.
 *.log
+*.tmp
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# Ignore systemd service files (if they are created dynamically)
+*.service
 
-# Editors and IDEs
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
+# Ignore binaries
+*.exe
+*.out
+
+# Ignore editor specific files
 *.swp
 *~
-
-# Node.js
-node_modules/
-
-# Python
-__pycache__/
-*.py[cod]
-
-# Archives
-*.zip
-*.tar.gz
-*.rar
-*.7z
-
-# Ignore systemd service symlinks
-/run/systemd/generator/*
-
-# Ignore script symlinks
-/usr/local/bin/jean-le-baptiste.sh
