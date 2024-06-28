@@ -1,0 +1,8 @@
+[Unit]
+Description=Jean Le Baptiste - Display Bible Verse on Startup
+
+[Service]
+ExecStart=/usr/local/bin/jean-le-baptiste.sh
+
+[Install]
+WantedBy=multi-user.target
