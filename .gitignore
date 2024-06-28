@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build files, and debug output
+*.out
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore systemd service symlinks
+/run/systemd/generator/*
+
+# Ignore script symlinks
+/usr/local/bin/jean-le-baptiste.sh
