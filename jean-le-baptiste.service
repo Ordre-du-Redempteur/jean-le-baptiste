@@ -3,6 +3,8 @@ Description=Jean Le Baptiste - Display Bible Verse on Startup
 
 [Service]
 ExecStart=/usr/local/bin/jean-le-baptiste.sh
+StandardOutput=tty
+TTYPath=/dev/tty1
 
 [Install]
 WantedBy=multi-user.target
