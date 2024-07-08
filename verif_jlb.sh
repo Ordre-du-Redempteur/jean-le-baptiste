@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#
-# ATTENTION :
-# ce sript va redemmarer l'appareil
-# assurez-vous de la bonne sauvegarde de vos travaux en cours...
-#
-
 check_service_status() {
     local service_name=$1
     sudo systemctl status $service_name
@@ -44,7 +38,7 @@ check_service_logs jean-le-baptiste.service
 echo "Redémarrage de la machine pour vérifier le fonctionnement au démarrage..."
 sudo reboot
 
-# attente par précaution
+# Attendre que la machine redémarre (ajuster si nécessaire)
 sleep 60
 
 echo "Consultation des journaux après redémarrage..."
