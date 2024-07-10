@@ -18,7 +18,7 @@ check_service_logs() {
 }
 
 echo "Exécution du script d'installation..."
-./installer.sh
+./../installer.sh
 if [ $? -ne 0 ]; then
     echo "Le script d'installation a échoué. Veuillez vérifier."
     exit 1
