@@ -26,6 +26,7 @@ EOF
 echo -e "\e[0m"
 
 echo "Voici le passage quotidien de la Sainte Ecriture : "
+echo " "
 echo "$PASSAGE"
 echo " "
 
