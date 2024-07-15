@@ -28,3 +28,7 @@ echo -e "\e[0m"
 
 echo "Voici le passage quotidien de la Sainte Ecriture : "
 echo "$PASSAGE"
+echo " "
+
+echo "Appuyez sur une touche pour continuer..."
+read -n 1 -s
