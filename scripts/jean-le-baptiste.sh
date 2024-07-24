@@ -29,6 +29,3 @@ echo "Voici le passage quotidien de la Sainte Ecriture : "
 echo " "
 echo "$PASSAGE"
 echo " "
-
-echo "Appuyez sur une touche pour continuer..."
-read -n 1 -s
